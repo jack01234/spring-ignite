@@ -10,6 +10,7 @@
     <modules>
         <module>spring-ignite-web</module>
         <module>spring-ignite-common</module>
+        <module>spring-ignite-dal</module>
     </modules>
     <properties>
         <java.encoding>UTF-8</java.encoding>
@@ -38,6 +39,13 @@
                 <artifactId>spring-ignite-common</artifactId>
                 <version>${project.version}</version>
             </dependency>
+
+            <dependency>
+                <groupId>${project.groupId}</groupId>
+                <artifactId>spring-ignite-dal</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
             <dependency>
                 <groupId>org.apache.ignite</groupId>
                 <artifactId>ignite-core</artifactId>
